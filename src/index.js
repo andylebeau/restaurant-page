@@ -1,10 +1,12 @@
 import createHeader from "./header";
-
-const content = document.getElementById("content");
+import createHome from "./home-page";
 
 const getHeader = createHeader();
-// const getMain = createPageContent();
+
+const content = document.getElementById("content");
+const getPage = createHome();
 // const getFooter = createFooter();
 
-content.appendChild(getHeader);
+document.body.prepend(getHeader);
+content.appendChild(getPage)
 
