@@ -6,6 +6,7 @@ function createHeader() {
   
     return header;
   }
+  
   function createLogo() {
     const logo = document.createElement("div");
     logo.classList.add("logo")
