@@ -74,6 +74,10 @@ button {
     cursor: pointer;
 }
 
+.button-nav:active {
+    text-decoration: underline;
+}
+
 #content {
     height: 80vh;
     display: grid;
@@ -84,10 +88,8 @@ button {
 .page-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
     padding: 40px;
     font-size: 1.2rem;
     line-height: 2rem;
