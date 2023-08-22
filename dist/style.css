@@ -13,7 +13,15 @@
   margin: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-image: url("images/giancarlo-duarte-_9P2fnBD610-unsplash.jpg");
     height: 100vh;
@@ -21,7 +29,8 @@ body {
     background-attachment: fixed;
 }
 
-header {
+header,
+footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -61,7 +70,7 @@ nav {
 button {
     color: white;
     border: none;
-    background-color: inherit;
+    background-color: transparent;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     cursor: pointer;
@@ -114,6 +123,7 @@ q {
 
 .menu > .page-content {
     max-width: 750px;
+    margin-bottom: 80px;
 }
 
 .menu > .page-content > h2:hover {
@@ -183,4 +193,31 @@ input[type=submit]:hover {
     color: white;
     border: black;
     background-color: sandybrown;
+}
+
+footer {
+    position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;         /* Footer height */
+    margin-top: auto;
+}
+
+.photos > .page-content {
+    max-width: 500px;
+    margin-bottom: 80px;
+}
+
+.photo-credit {
+    text-align: right;
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
 }

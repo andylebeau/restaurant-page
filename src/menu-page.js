@@ -9,7 +9,7 @@ function createMenu() {
         "Sashimi is simply strips of raw fish with no rice at all (although rice can accompany sashimi). As such, sashimi is not technically a type of sushi since sushi always features rice. But you can think of nigiri sushi as a hand-pressed mound of rice with a strip of sashimi on top. Unlike nigiri and maki, sashimi is eaten with chopsticks."
     ]
     const menuImagesSrc = [
-        "images/fadya-azhary-CA2NgpLIqa0-unsplash.jpg",
+        "images/fadya-azhary-5KS7T3Gs3CA-unsplash.jpg",
         "images/ahtziri-lagarde-fBtJVtPrNSs-unsplash.jpg",
         "images/ahtziri-lagarde-UZQPPMKLC50-unsplash.jpg"
     ]
